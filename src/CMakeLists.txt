@@ -9,4 +9,3 @@ if(Boost_FOUND)
     include_directories(${Boost_INCLUDE_DIRS})
     target_link_libraries(starter Boost::date_time)
 endif()
-
